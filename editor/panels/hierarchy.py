@@ -2,12 +2,11 @@ import dearpygui.dearpygui as dpg
 
 # Fake scene data
 _entities = [
-    {"id": 1, "name": "Camera"},
-    {"id": 2, "name": "Player"},
-    {"id": 3, "name": "Light"},
-    {"id": 4, "name": "Ground"}
+    {"id": 1, "name": "Camera", "position": [0.0, 5.0, -10.0]},
+    {"id": 2, "name": "Player", "position": [0.0, 0.0, 0.0]},
+    {"id": 3, "name": "Light", "position": [0.0, 10.0, 0.0]},
+    {"id": 4, "name": "Ground", "position": [0.0, -1.0, 0.0]}
 ]
-
 selected_entity = None
 _selection_callback = None
 
